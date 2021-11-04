@@ -1,0 +1,21 @@
+<!--pages/kmain/main.wxml-->
+<view class="mainContainer">
+  <image class="bg" src="../../images/bg2.png" mode="aspectFill"/>
+  <view class="header">
+    <image class="logo" src="../../images/logo.png" bindtap="queryAndAdd"/>
+    <view class="text">活到老学到老~</view>
+    <image class="search" src="../../images/search.png"/>
+  </view>
+
+
+
+  <!-- <view wx:if="{{len > 5}}"> 1 </view>
+  <view wx:elif="{{len > 1}}"> 2 </view>
+  <view wx:else> 3 </view> -->
+  <view class="kRecList" wx:for="{{recList}}" wx:key="rec">
+    <view class="itemView" data-item="{{item}}" bindtap="tapItem">
+      <view class="itemTitle">{{item.title}}</view>
+    </view>
+  </view>
+</view>
+

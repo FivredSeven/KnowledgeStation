@@ -1,0 +1,59 @@
+/* pages/kdetail/detail.wxss */
+.detailContainer .bg{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+}
+.header .text{
+  /* background-color: pink; */
+  color: black;
+  font-size: 36rpx;
+  line-height: 100rpx;
+}
+.header .logo{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.header .search{
+  /* background-color: pink; */
+  width: 40rpx;
+  height: 40rpx;
+  padding: 20rpx;
+  align-self: center;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+}
+.subtitle .sub{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  font-size: 30rpx;
+  color: gray;
+}
+
+.itemView {
+  padding: 20rpx;
+  text-align: left;
+  text-indent:2em;
+}
+.itemText {
+  display: flex;
+  flex-direction: column;
+}
+.inImage {
+  margin: 30rpx;
+}
+
+.fifthChild{
+  background-color: pink;
+}
+.otherChild{
+  background-color: orange;
+}

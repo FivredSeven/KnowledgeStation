@@ -1,0 +1,23 @@
+<!--pages/kdetail/detail.wxml-->
+<view class="detailContainer">
+  <image class="bg" src="../../images/bg.png" mode="aspectFill"/>
+  <view class="header">
+    <image class="logo" src="../../images/logo.png"/>
+    <view class="text">{{title}}</view>
+    <image class="search" src="../../images/search.png"/>
+  </view>
+
+  <view class="subtitle" wx:if="{{kData}}">
+    <view class="addtime sub">时间:{{kData.addtime}}</view>
+    <view class="visitor sub">浏览:{{kData.visitor}}</view>
+  </view>
+
+  <view class="contentList" wx:for="{{contentArray}}" wx:key="con">
+    <view class="itemView" data-item="{{item}}">
+      <!-- <view class="itemText">
+        {{item}}
+      </view> -->
+      <rich-text nodes="{{item}}"/>
+    </view>
+  </view>
+</view>

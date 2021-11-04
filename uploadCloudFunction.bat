@@ -1,0 +1,1 @@
+"F:\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-4ga13puefd14b1b5 --n quickstartFunctions --r --project "F:\miniapp\KnowledgeStation" --report_first --report

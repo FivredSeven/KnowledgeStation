@@ -1,0 +1,42 @@
+/* pages/kmain/main.wxss */
+.mainContainer .bg{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+}
+.header .text{
+  /* background-color: pink; */
+  color: black;
+  font-size: 36rpx;
+  line-height: 100rpx;
+}
+.header .logo{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.header .search{
+  /* background-color: pink; */
+  width: 40rpx;
+  height: 40rpx;
+  padding: 20rpx;
+  align-self: center;
+}
+.kRecList{
+  display: flex;
+}
+.itemView{
+  /* background-color: pink; */
+  padding: 10rpx;
+  margin-left: 20rpx;
+}
+.itemTitle{
+  /* background-color: orange; */
+  color: blue;
+  text-decoration-line: underline;
+}

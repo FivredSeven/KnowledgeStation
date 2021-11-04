@@ -1,0 +1,6 @@
+table-k_rec：知识推荐表
+kid/title
+table-k_data：知识简表
+kid/title/author/addtime/type/visitor/star/comment/collect
+table-k_detail：知识详情表
+kid/content
